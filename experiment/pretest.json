@@ -2,35 +2,103 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is a covert channel in a computer system?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "An authorized method of data communication",
+        "b": "An unintended communication path that allows information leakage",
+        "c": "A secure encryption mechanism",
+        "d": "A firewall rule for access control"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Covert channels do not use authorized communication paths.",
+        "b": "Correct. Covert channels exploit unintended paths to leak information indirectly.",
+        "c": "Incorrect. Encryption protects data but does not describe covert channels.",
+        "d": "Incorrect. Firewalls enforce access control but are not covert channels."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following best describes information leakage?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Authorized sharing of encrypted data",
+        "b": "Loss of data due to system failure",
+        "c": "Unintended exposure of sensitive information",
+        "d": "Secure data backup operation"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Authorized sharing does not constitute leakage.",
+        "b": "Incorrect. System failure is not information leakage.",
+        "c": "Correct. Information leakage refers to unintended exposure of sensitive data.",
+        "d": "Incorrect. Backup operations are secure processes."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the key characteristic of a storage covert channel?",
+      "answers": {
+        "a": "Use of execution delays to transmit data",
+        "b": "Transmission of encrypted messages",
+        "c": "Modification of a shared resource state to convey information",
+        "d": "Use of network protocols for communication"
+      },
+      "explanations": {
+        "a": "Incorrect. This describes a timing covert channel.",
+        "b": "Incorrect. Encrypted messages are explicit communication.",
+        "c": "Correct. Storage covert channels rely on observable changes in shared resources.",
+        "d": "Incorrect. Network protocols are authorized communication paths."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In this experiment, how is the storage covert channel implemented?",
+      "answers": {
+        "a": "By encrypting database records",
+        "b": "By modifying the presence or absence of records in a shared database table",
+        "c": "By increasing network latency",
+        "d": "By blocking user permissions"
+      },
+      "explanations": {
+        "a": "Incorrect. Encryption is not used to simulate the covert channel.",
+        "b": "Correct. Record presence represents the shared signal state.",
+        "c": "Incorrect. Network latency relates to timing covert channels.",
+        "d": "Incorrect. Permission blocking is access control enforcement."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the defining feature of a timing covert channel?",
+      "answers": {
+        "a": "Use of shared files for communication",
+        "b": "Encoding information using system response time variations",
+        "c": "Explicit message passing between processes",
+        "d": "Modification of access control rules"
+      },
+      "explanations": {
+        "a": "Incorrect. Shared files relate to storage covert channels.",
+        "b": "Correct. Timing covert channels use execution or response delays to convey information.",
+        "c": "Incorrect. Explicit messaging is not covert.",
+        "d": "Incorrect. Access control rules do not encode covert data."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why are timing covert channels difficult to detect?",
+      "answers": {
+        "a": "They use encrypted data packets",
+        "b": "They rely on secure authentication mechanisms",
+        "c": "Timing variations can occur naturally during normal system operation",
+        "d": "They require specialized hardware"
+      },
+      "explanations": {
+        "a": "Incorrect. Encryption is not the reason for difficulty in detection.",
+        "b": "Incorrect. Authentication does not affect timing covert channels.",
+        "c": "Correct. Natural timing variations make detection challenging.",
+        "d": "Incorrect. No special hardware is required."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
