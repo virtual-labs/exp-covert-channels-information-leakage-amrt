@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In the storage covert channel simulation, how does the sender encode information?",
+      "answers": {
+        "a": "By encrypting the data before transmission",
+        "b": "By modifying access control permissions",
+        "c": "By changing the state of a shared database resource",
+        "d": "By sending explicit messages to the receiver"
+      },
+      "explanations": {
+        "a": "Incorrect. Encryption is not used in storage covert channels.",
+        "b": "Incorrect. Permission changes enforce policy but do not encode data.",
+        "c": "Correct. Information is encoded by altering the shared storage state.",
+        "d": "Incorrect. Covert channels avoid explicit communication."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does the receiver decode information in the storage covert channel?",
+      "answers": {
+        "a": "By reading encrypted messages",
+        "b": "By observing the presence or absence of a shared resource",
+        "c": "By checking network traffic",
+        "d": "By analyzing access control rules"
+      },
+      "explanations": {
+        "a": "Incorrect. No encrypted messages are exchanged.",
+        "b": "Correct. The receiver infers data from the shared resource state.",
+        "c": "Incorrect. Network traffic is not used in this simulation.",
+        "d": "Incorrect. Access control rules do not carry covert data."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What system behavior is exploited in a timing covert channel?",
+      "answers": {
+        "a": "File permission changes",
+        "b": "Database record modification",
+        "c": "Variations in execution or response time",
+        "d": "Explicit message passing"
+      },
+      "explanations": {
+        "a": "Incorrect. Permission changes relate to storage covert channels.",
+        "b": "Incorrect. Database records are used in storage channels.",
+        "c": "Correct. Timing covert channels encode data using time variations.",
+        "d": "Incorrect. Explicit communication is not covert."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why are timing covert channels difficult to detect in real systems?",
+      "answers": {
+        "a": "They require special hardware",
+        "b": "They use encrypted communication",
+        "c": "Timing variations can naturally occur during normal operation",
+        "d": "They bypass authentication mechanisms"
+      },
+      "explanations": {
+        "a": "Incorrect. No special hardware is required.",
+        "b": "Incorrect. Encryption is not the cause of difficulty.",
+        "c": "Correct. Natural timing variations make detection challenging.",
+        "d": "Incorrect. Authentication is unrelated to timing channels."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What role do system logs play in this experiment?",
+      "answers": {
+        "a": "They prevent covert channel attacks",
+        "b": "They encrypt transmitted data",
+        "c": "They help infer hidden data transmission by recording system behavior",
+        "d": "They replace access control mechanisms"
+      },
+      "explanations": {
+        "a": "Incorrect. Logs do not prevent attacks.",
+        "b": "Incorrect. Logs do not encrypt data.",
+        "c": "Correct. Logs support analysis and inference of covert communication.",
+        "d": "Incorrect. Logs do not replace access control."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What conclusion can be drawn when a data transfer is blocked but information is still inferred?",
+      "answers": {
+        "a": "Access control policies are unnecessary",
+        "b": "Encryption has failed",
+        "c": "Information leakage can occur through unintended system behavior",
+        "d": "The receiver bypassed authentication"
+      },
+      "explanations": {
+        "a": "Incorrect. Access control is still essential.",
+        "b": "Incorrect. Encryption is not involved.",
+        "c": "Correct. Covert channels demonstrate unintended information leakage.",
+        "d": "Incorrect. Authentication is not bypassed."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

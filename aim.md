@@ -1,0 +1,2 @@
+
+To demonstrate covert channels as unintended paths for information leakage in computer systems through simulation. The experiment examines both storage and timing covert channels, allowing observation of hidden data transmission and identification of leakage through system behavior and audit logs.
