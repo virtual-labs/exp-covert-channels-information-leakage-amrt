@@ -4,7 +4,7 @@
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b>Database Security
-<b> Experiment|     <b>  Honeypots for Database Attack Detection
+<b> Experiment|     <b>  Covert Channels and Information Leakage  
 
 ### About the Experiment 
 
