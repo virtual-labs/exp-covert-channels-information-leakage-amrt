@@ -1,14 +1,17 @@
-#### Covert Channels
 
-*   [Covert Channel — Wikipedia](https://en.wikipedia.org/wiki/Covert_channel)
-*   [Security and Privacy Controls for Information Systems (Covert Channel Guidance) — NIST](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 
-#### Covert Timing Channels
+- **Stallings, W., & Brown, L. (2017).** *Computer Security: Principles and Practice.* Pearson Education.  
+  Covers access control, information flow, and covert channels.
 
-*   [Covert Timing Channel Analysis as Cyber Attacks or Confidential Applications](https://www.mdpi.com/1424-8220/20/8/2417)
-*   [Open Access: Covert Timing Channel Analysis (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7219501/)
-*   [Covert Timing Channel Detection Method Based on Time Interval and Payload Length Analysis](https://www.sciencedirect.com/science/article/abs/pii/S0167404820302285)
+- **Anderson, R. (2020).** *Security Engineering: A Guide to Building Dependable Distributed Systems.* John Wiley & Sons.  
+  Explains multilevel security and covert channel risks.
 
-#### Covert Storage Channels
+- **Pfleeger, C. P., Pfleeger, S. L., & Margulies, J. (2015).** *Security in Computing.* Prentice Hall.  
+  Discusses trusted systems and covert channel concepts.
 
-*   [Packet Length Covert Channel Detection (Storage-Based Channel Using Packet Fields)](http://www.jatit.org/volumes/Vol100No23/19Vol100No23.pdf)
+- **NIST Special Publication 800-53 (Rev. 5):** *Security and Privacy Controls (Control SC-31: Covert Channel Analysis)*  
+  https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final  
+  Provides standard guidelines for covert channel analysis and mitigation.
+
+- **[Covert Channel Overview — Wikipedia](https://en.wikipedia.org/wiki/Covert_channel)**  
+  Gives a fundamental overview of covert channels and information leakage.

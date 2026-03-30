@@ -11,7 +11,7 @@
       },
       "explanations": {
         "a": "Incorrect. Covert channels do not use authorized communication paths.",
-        "b": "Correct. Covert channels exploit unintended paths to leak information indirectly.",
+        "b": "Correct. Covert channels exploit unintended communication paths to leak information indirectly.",
         "c": "Incorrect. Encryption protects data but does not describe covert channels.",
         "d": "Incorrect. Firewalls enforce access control but are not covert channels."
       },
