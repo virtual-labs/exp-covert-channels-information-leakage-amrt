@@ -1,8 +1,8 @@
-
-
-Covert channels are unintended communication mechanisms through which information can leak in a computer system without using authorized data transfer paths. Unlike normal communication channels that follow defined system policies and access controls, covert channels exploit shared system resources or observable system behaviors to transmit information indirectly.
+Covert channels are unintended communication paths through which information can leak in a computer system without using authorized data transfer paths. Unlike normal communication channels that follow defined system policies and access controls, covert channels exploit shared system resources or observable system behaviors to transmit information indirectly.
 
 Such channels do not rely on authorized message passing mechanisms. Instead, they enable a sender process and a receiver process to exchange information through indirect signals such as changes in system state or variations in execution time.
+
+For successful communication to occur, there must be a **prior agreement** between the sender and receiver. This agreement defines how information is encoded (e.g., what specific state or timing interval represents a '0' or '1') and the synchronization protocols needed for reliable data transfer. Without this shared understanding, the receiver would be unable to correctly decode the transmitted signals.
 
 Covert channels are an important concern in **information leakage analysis and security modeling**, as they demonstrate how sensitive data may be exposed even when access control mechanisms and security policies are correctly enforced.
 
@@ -10,7 +10,6 @@ Based on the method used to transmit hidden information, covert channels are bro
 
 - **Storage Covert Channels**
 - **Timing Covert Channels**
-
 
 #### Storage Covert Channels
 
@@ -35,8 +34,6 @@ In this experiment, the storage covert channel is simulated using a **shared dat
 
 This simulation demonstrates how unintended information leakage can occur through shared storage resources without direct communication between processes.
 
-
-
 #### Timing Covert Channels
 
 Timing covert channels enable information leakage by manipulating the **time taken to perform system operations**. In this method, the sender process encodes information by introducing deliberate delays or variations in execution time, while the receiver process decodes the information by measuring and analyzing these timing differences.
@@ -55,12 +52,10 @@ In this experiment, the timing covert channel is simulated by introducing **cont
 For example:
 
 | Delay Duration | Binary Value |
-|---------------|--------------|
-| Short delay   | 0 |
-| Long delay    | 1 |
+| -------------- | ------------ |
+| Short delay    | 0            |
+| Long delay     | 1            |
 
 The receiver process measures the execution time of system operations and compares it with predefined thresholds to infer the transmitted information.
 
 System operations are also **logged during the experiment** to support the inference of hidden data transmission and to analyze the characteristics of timing-based information leakage.
-
-

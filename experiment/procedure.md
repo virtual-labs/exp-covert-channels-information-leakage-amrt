@@ -3,9 +3,9 @@
 <img src="images/covert1.png" alt="Introduction to Covert Channels - Initial Screen" style="max-width:80%;">
 
 <ol>
-  <li>observe the <strong>Introduction: Why Covert Channels are Used</strong> panel which outlines the sequence of attempting a direct but restricted data transfer.</li>
+  <li>Observe the <strong>introduction: Why Covert Channels are Used</strong> panel which outlines the sequence of attempting a direct but restricted data transfer.</li>
 
-  <li>In the <strong>left panel ( HIGH SECURITY - Data Sender)</strong>:
+  <li>In the <strong>left panel (🛡️ HIGH SECURITY - Data Sender)</strong>:
     <ul>
       <li>Select a piece of sensitive data (e.g., "User Account Password") from the list.</li>
       <li>Click <strong>Attempt Data Transfer</strong>.</li>
@@ -19,7 +19,7 @@
     </ul>
   </li>
 
-  <li>In the <strong>right panel ( LOW SECURITY - Data Receiver)</strong>:
+  <li>In the <strong>right panel (🔓 LOW SECURITY - Data Receiver)</strong>:
     <ul>
       <li>Observe that the Input Stream displays <strong>Access Denied — Transfer Blocked</strong>, indicating that the primary transfer mechanism is controlled.</li>
     </ul>
